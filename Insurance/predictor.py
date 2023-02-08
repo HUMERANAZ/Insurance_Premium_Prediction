@@ -34,7 +34,7 @@ class ModelResolver:
             if latest_dir is None:
                 raise Exception(f"Model is not available")
             return os.path.join(latest_dir,self.model_dir_name,MODEL_FILE_NAME)
-        except Exception as e:
+        xcept Exception as e:
             raise e
 
     def get_latest_transformer_path(self):
