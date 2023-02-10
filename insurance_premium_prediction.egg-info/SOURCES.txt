@@ -4,6 +4,7 @@ Insurance/__init__.py
 Insurance/config.py
 Insurance/exception.py
 Insurance/logger.py
+Insurance/predictor.py
 Insurance/utils.py
 Insurance/components/__init__.py
 Insurance/components/data_ingestion.py
@@ -16,6 +17,8 @@ Insurance/entity/__init__.py
 Insurance/entity/artifact_entity.py
 Insurance/entity/config_entity.py
 Insurance/pipeline/__init__.py
+Insurance/pipeline/batch_prediction.py
+Insurance/pipeline/training_pipeline.py
 insurance_premium_prediction.egg-info/PKG-INFO
 insurance_premium_prediction.egg-info/SOURCES.txt
 insurance_premium_prediction.egg-info/dependency_links.txt
